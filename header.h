@@ -17,3 +17,8 @@
  * @return x with f(x)=0
 */
  double bisection(double (*f)(double), double a, double b);
+double regularfalsi(double (*f)(double), double a, double b);
+
+int itenewton;
+int iteregular;
+int itebisection;
